@@ -1,0 +1,11 @@
+{
+  "/api/*": {
+    "target": "https:remote-backend/api",
+    "secure": true,
+    "logLeveL": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
