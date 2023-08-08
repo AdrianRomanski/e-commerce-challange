@@ -5,7 +5,7 @@ import { AppComponent } from './containers/app/app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterOutlet } from '@angular/router';
 import { SharedModule } from './shared/shared.module';
-import {AppRoutingModule} from "./app-routing.module";
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +14,7 @@ import {AppRoutingModule} from "./app-routing.module";
     BrowserModule,
     BrowserAnimationsModule,
     RouterOutlet,
-    SharedModule.forRoot()
+    SharedModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
